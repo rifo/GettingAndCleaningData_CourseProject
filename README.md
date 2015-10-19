@@ -1,5 +1,5 @@
 # GettingAndCleaningData_CourseProject
-This repo contains all file requested by Coursera Getting And Cleaning Data Course project.
+This repo contains all files requested by Coursera Getting And Cleaning Data Course project.
 
 ##Installation and run
  
