@@ -1,3 +1,10 @@
+#########################
+# This script contains the function run_analysis
+# It performs all the steps required by Course Assignment
+# The output are:
+# - a txt file named "tidyTable.txt" saved in working directory
+# - the requested dataSet as console print
+#########################
 run_analysis <- function() {
   
   #We will use 2 packages. Check if they are installed.
