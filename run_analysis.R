@@ -107,7 +107,7 @@ run_analysis <- function() {
   #Save text file (as requested by program assignment)
   write.table(castDataSet,file="tidyTable.txt",row.name=FALSE)
 
-  #Finally, return the totDataset (as requested by program assignment)
+  #Finally, return the totDataset of the step 4 (as requested by program assignment)
   totDataset
 }
 
