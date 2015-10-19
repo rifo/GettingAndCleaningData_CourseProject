@@ -94,9 +94,9 @@ run_analysis <- function() {
   allSubjects <- rbind(testSubjects,trainSubjects)
   
   colnames(allSubjects)[1] <- "SUBJECT"
-  totDataset <- cbind(allSubjects, totDataset)
+  totDatasetWithSubjects <- cbind(allSubjects, totDataset)
   
-  sortedDataSet <- totDataset[order(totDataset$SUBJECT,totDataset$ACTIVITY),]
+  sortedDataSet <- totDatasetWithSubjects[order(totDatasetWithSubjects$SUBJECT,totDatasetWithSubjects$ACTIVITY),]
   
   #create a long shaped dataset from a wide shaped dataset
   meltDataSet <- melt(sortedDataSet,id.vars= c("SUBJECT","ACTIVITY"))
