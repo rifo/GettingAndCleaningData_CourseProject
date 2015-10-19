@@ -15,7 +15,7 @@ The columns of the file are respectively:
 
 "SUBJECT": the id of the subject under observation
 
-"ACTIVITY": the name of the observed activity (one of "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS"
+"ACTIVITY": the name of the observed activity (one of "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS")
 
 and the average of each selected variable for each activity and each subject. The selected variables are only the measurements on the mean and standard deviation for each measurement. For details on single measurements, see below.
 
