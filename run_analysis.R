@@ -19,7 +19,7 @@ run_analysis <- function() {
   if (!require(packageReshape2,character.only=TRUE)) {
       install.packages(packageReshape2)
   }
-  require(packagePlyr,character.only=TRUE)  
+  require(packageReshape2,character.only=TRUE)  
   
   
   #########################
