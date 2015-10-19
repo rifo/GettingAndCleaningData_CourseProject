@@ -19,6 +19,25 @@ The columns of the file are respectively:
 
 and the average of each selected variable for each activity and each subject. The selected variables are only the measurements on the mean and standard deviation for each measurement. For details on single measurements, see below.
 
+A total of 79 features were selected from the original data: the estimated mean and standard deviations, using a `grep` on `"mean|std"`.
+
+The feature names from the original data have been rewritten, to be more readable:
+
+* "t"-> "TIME_";
+* "f" -> "FREQUENCY_";
+* "Gravity" -> "GRAVITY"
+* "Gyro" -> "GYROSCOPE"
+* "Acc" -> "ACCELLERATION"
+* "Mag" -> "MAGNITUTE"
+* "Jerk" -> "JERK"
+* "meanFreq" -> "_MEANFREQUENCY_"
+* "mean" -> "_MEAN_"
+* "std" -> "_STANDARDDEVIATION_"
+* "BodyBody" -> "_BODY_"
+* dashes and parentheses have been removed
+
+A full description of the features is best obtained from the file `features_info.txt`, included with the original dataset.
+
 "TIME__BODY_ACCELLERATION_MEAN_X" 
 
 "TIME__BODY_ACCELLERATION_MEAN_Y" 
